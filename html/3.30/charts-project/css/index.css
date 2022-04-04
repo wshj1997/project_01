@@ -1,0 +1,22 @@
+body {
+    background: url(../images/QQ截图20211014214229.png) no-repeat;
+    background-size: cover;
+}
+
+.viewport {
+    display: flex;
+    min-width: 1024px;
+    min-height: 780px;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 1.1rem .25rem 0;
+}
+
+.viewport .column {
+    flex: 3;
+    background-color: pink;
+}
+
+.viewport .column:nth-child(2) {
+    flex: 4;
+}

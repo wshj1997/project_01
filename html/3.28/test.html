@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jQuery-min.js"></script>
+    <title>Document</title>
+    <style>
+        div {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div>惊喜不，意外不</div>
+    <div>惊喜不，意外不</div>
+    <div>惊喜不，意外不</div>
+    <div>惊喜不，意外不</div>
+    <ul>
+        <li>相同的操作</li>
+        <li>相同的操作</li>
+        <li>相同的操作</li>
+    </ul> -->
+    <button>移动</button>
+    <div></div>
+    <script>
+        $(function() {
+            // $('div').hide();
+            // console.log($('div'));
+
+            // $('div').css('background', 'pink');
+
+            $("button").click(function() {
+                $("div").animate({
+                    left: 500
+                });
+            });
+        })
+    </script>
+
+</body>
+
+</html>
